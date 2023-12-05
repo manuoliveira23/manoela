@@ -1,7 +1,7 @@
-FROM python:3.8-slim 
+FFROM python:3.8-slim 
 
-COPY app.py /app,py
+COPY app.py /app.py
 
 WORKDIR /
 
-CMD ["python", "app.py"]
+CMD python app.py
